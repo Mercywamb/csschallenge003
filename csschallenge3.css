@@ -1,0 +1,174 @@
+.head{
+    background-image: url("./images/top.png") ;
+    background-size: 100%;
+    height: 100%;
+
+}
+body{
+    display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 100vw;
+            flex-wrap: nowrap;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 10%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10%;
+    
+
+}
+.card1{
+    background-color: rgb(12, 60, 149);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(233, 221, 221, 0.797);
+    justify-content: space-around;
+}
+.botton button{
+    border-radius: 30px;
+   background-color:  rgb(44, 77, 136) ;
+   width: 130px;
+   height: 37px;
+   color: white;
+}
+.button2 button{
+    border-radius:30px ;
+    background-color: transparent;
+    border: solid rgb(200, 192, 192);
+    width: 130px;
+    height: 37px;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.cardwhite{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    background-color: rgb(255, 255, 255)
+
+}
+.litwhite{
+    color: rgb(72, 75, 75);
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+
+}
+.cardpic1{
+    background-color: #f1f0eb;
+    padding-top: 30px;
+}
+.hly{
+    display: flex;
+    justify-content: center;
+    margin-top:130px;
+    gap: 80px;
+}
+.cardsubscribe{
+    background-color: blue;
+    height: 55px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    
+}
+.cardemail{
+    background-color: #f1f0eb;
+    height: 40px;
+    width: 300px;
+    
+    
+}
+.cardsub{
+    background-color: blueviolet;
+    height: 45px;
+    width: 150px;
+}
+.pricing{
+    padding-bottom: 10px;
+}
+.cardspri{
+    display: flex;
+    justify-content: center;
+    margin-top:130px;
+    gap: 80px;
+}
+.blac{
+    color: rgb(89, 84, 84);
+}
+.cardfree{
+    background-color:
+    
+}
+.cardstand{
+
+}
+.cardtry{
+    background-color: blue;
+    height: 30px;
+    width: 150px;
+}
+.hea{
+    font-size: 23px;
+    margin-bottom: 4px;
+}
+.worldb{
+ display: flex;
+ justify-content: center;
+ height: 150%;
+}
+.grad{
+    font-size: 14px;
+    color: rgb(15, 125, 222);
+}
+.colu{
+    flex-direction: column;
+}
+.boook{
+    font-size: 13px;
+    color: black;
+}
+.cardapp{
+    background-color: azure;
+    color: rgb(144, 137, 137);
+    height: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.cardbapp{
+    background-color: blue;
+    color: azure;
+    height: 30px;
+    width: 40%;
+}
