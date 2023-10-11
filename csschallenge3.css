@@ -70,6 +70,8 @@ body{
 }
 .litwhite{
     color: rgb(72, 75, 75);
+    margin: 1px 7px;
+    
 }
 .pics{
     display: flex;
@@ -94,25 +96,33 @@ body{
 }
 .cardsubscribe{
     background-color: blue;
-    height: 55px;
-    width: 1000px;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    
+    }
+    .peac{
+        margin-top: -13%;
+    }
+    .satp{
+        margin-top: -1%;
+    }
+    
+.email{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 29px;
     
 }
-.cardemail{
-    background-color: #f1f0eb;
-    height: 40px;
-    width: 300px;
-    
-    
+.buttonsub{
+    background-color: black;
 }
-.cardsub{
-    background-color: blueviolet;
-    height: 45px;
-    width: 150px;
+.subs{
+    margin-left: 25px;
 }
 .pricing{
     padding-bottom: 10px;
@@ -171,4 +181,40 @@ body{
     color: azure;
     height: 30px;
     width: 40%;
+}
+.bran{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.info{
+    font-size: 14px;
+}
+.allb{
+    display: flex;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(31, 26, 41);
+    padding-bottom: 15%;
+    width: 100%;
+
+}
+.map{
+    /* height: 10%; */
+    width: 50%;
+}
+.map img{
+    width: 50%;
+}
+.bookp{
+    display: flex;
+    flex-direction: column;
+  
+    text-align: left;
+    
+}
+.bookap{
+
 }
